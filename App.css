@@ -1,0 +1,276 @@
+.app{
+    display: flex;
+    
+    justify-content: center;
+}
+.upper{
+  width: 80vw;
+  height: 900px;
+  background-color:aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+   
+   
+    height: 900px;
+    width: -290px;
+    background-color:blue;
+    text-align: left;
+
+}
+.Navbar{
+    height: 100%;
+    width: 100%;
+}
+.rows{
+    text-align: left;
+    font-size: 30px;
+    margin: 20px;
+    padding: 2px 5px;
+    border-bottom: none;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+
+.sidebar h1{
+    font-size: 30px;
+    text-align: left;
+}
+.sidebar rows{
+    border: 2px solid black;
+}
+.rows #icone{
+    flex: 5%;
+    place-items: center;
+}
+
+.Navbar .rows:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.space{
+    background-color:white;
+    width: 100%;
+    height: 40px;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.parts{
+    display: flex;
+    
+    justify-content:center ;
+    justify-content: space-around;
+}
+.p1{
+    width: 250px;
+    height: 120px;
+    border: 3px solid aliceblue;
+    display: flex;
+    justify-content:center ;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+.p2{
+    width: 250px;
+    height: 120px;
+    border: 3px solid black aliceblue;
+    display: flex;
+    
+    justify-content:center ;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+.p3{
+    width: 250px;
+    height: 120px;
+    border: 3px solid aliceblue;
+    display: flex;
+    
+
+    justify-content:center ;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+.p4{
+    width: 250px;
+    height: 120px;
+    border: 3px solid aliceblue;
+    display: flex;
+    
+
+    justify-content:center ;
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+ .overview{
+    width: 100%;
+    height: 400px;
+    background-color:aliceblue;
+    display: flex;
+    
+
+    justify-content:center ;
+    justify-content: space-around;
+ }
+ .over{
+    width: 60%;
+    height: 350px;
+    background-color:white;
+ }
+ .view{
+    width: 30%;
+    height: 350px;
+    background-color:white;
+ 
+ }
+ .nav{
+    display: flex;
+   
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .pie img{
+    width: 300px;
+    height: 250px;
+    padding-left: 40px;
+ }
+ .subn{
+    display: flex;
+
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .second{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom:2px solid;
+    color: gainsboro;
+ }
+ .subsecond{
+    width: 300px;
+    height: 30px;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: gainsboro;
+ 
+
+ }
+ #select{
+    color: gainsboro;
+ }
+ .last{
+    display: flex;
+    
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .pa1{
+    border:none ;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .subpa1{
+    width: 300px;
+    height: 30px;
+    background-color:aliceblue;
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .pa1 h5 {
+    font-size: 15px;
+ }
+ .pa1 h6{
+    font-size: 10px;
+ }
+ .box1{
+    border-bottom: 2px solid black;
+    width: 100%;
+ }
+ .last2{
+    background-color:aliceblue;
+    width: 100%;
+    height: 50px;
+ }
+ .last2{
+    display: flex;
+   
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .pa2{
+    border:none ;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .subpa2{
+    width: 300px;
+    height: 30px;
+    background-color:aliceblue;
+    display: flex;
+    
+
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .pa2 h5 {
+    font-size: 15px;
+ }
+ .pa2 h6{
+    font-size: 10px;
+ }
+ .box2{
+    border-bottom: 2px solid black;
+    width: 100%;
+ }
+ .sec{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50px;
+ }
+ .sidebar h1{
+    color: white;
+ }
+ .state h6{
+    color: gainsboro;
+ }
+ #green{
+    color: green;
+ }
+ #red{
+    color: maroon;
+ }
+ #black{
+    color: black;
+ }
+    
+ 
